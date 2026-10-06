@@ -1,0 +1,12 @@
+footer{
+    min-height: 10.2rem;
+    padding: 5rem 77.5rem;
+    background-color: var(--gray-1);
+    display: flex;
+    justify-content: center;
+}
+
+.footer__img{
+    align-self: center;
+    
+}

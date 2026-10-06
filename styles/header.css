@@ -1,0 +1,36 @@
+header{
+    min-height: 10rem;
+    display: flex;
+    width: 100%;
+    background-color: var(--gray-1);
+    border-bottom: solid var(--brand-1) 0.2rem;
+    padding: 2rem 23.6rem;
+    align-items: center;
+}
+
+.header--container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    color: var(--gray-7);
+    width: 30vw;
+    font: var(--text4);
+}
+
+.header__button{
+    width: 26.6rem;
+    height: 6rem;
+    border: solid var(--gray-7) 0.1rem;
+    background-color: var(--gray-1);
+    color: var(--gray-7);
+    font: var(--text4);
+}
+
+.header__button:hover{
+    cursor: pointer;
+}

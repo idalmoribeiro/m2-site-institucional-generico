@@ -1,0 +1,23 @@
+.about{
+    min-height: 28.4rem;
+    display: flex;
+    background-color: var(--gray-1);
+}
+
+.about__container{
+    display: flex;
+    width: 100%;
+    padding: 8.2rem 23.6rem;
+    gap: 5.6rem;
+}
+
+.about__title{
+    color: var(--gray-6);
+    font: var(--title2);
+    min-width: 62rem;
+}
+
+.about__text{
+    color: var(--gray-5);
+    font: var(--text1);
+}

@@ -1,0 +1,43 @@
+:root {
+
+    /*cores*/
+    --brand-1: #4C6EF5;
+    --brand-2: #364FC7;
+
+    --gray-1: #191C1F;
+    --gray-2: #212529;
+    --gray-3: #343A40;
+    --gray-4: #ADB5BD;
+    --gray-5: #CED4DA;
+    --gray-6: #EDF2FF;
+    --gray-7: #F8F9FA;
+
+    /*textos*/
+    /* font weight, font size, line-height, font-family*/
+    --title1: 600 52px/140% "Inter", sans-serif;
+    --title2: 600 40px/160% "Inter", sans-serif;
+    --title3: 600 32px/160% "Inter", sans-serif;
+    --text1: 400 20px/150% "Inter", sans-serif;
+    --text2: 400 18px/150% "Inter", sans-serif;
+    --text3: 400 16px/150% "Inter", sans-serif;
+    --text4: 600 16px/150% "Inter", sans-serif ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+   
+}
+
