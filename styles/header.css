@@ -6,6 +6,8 @@ header{
     border-bottom: solid var(--brand-1) 0.2rem;
     padding: 2rem 23.6rem;
     align-items: center;
+    position: fixed;
+    z-index: 1;
 }
 
 .header--container{
