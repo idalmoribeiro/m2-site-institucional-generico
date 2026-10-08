@@ -1,0 +1,75 @@
+.modalBox{
+    width: 50.4rem;
+    height: 41.6rem;
+    
+    padding: 4rem 2.8rem;
+    background-color: var(--gray-2);
+    margin: auto auto;
+    inset:0;
+    border: 0.2rem solid var(--brand-1);
+}
+
+.modalBox::backdrop{
+    background-color: var(--gray-2);
+}
+
+.modal__container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.1rem;
+}
+
+.primeira__linhaModal{
+    width: 100%;
+    height: 5.1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal__title{
+    font: var(--title3);
+    color: var(--gray-7);
+}
+
+.modal__closeButton{
+    width: 3.8rem;
+    height: 3.2rem;
+    background-color: var(--gray-3);
+    color: var(--gray-4);
+    border: none;
+}
+
+.modal__closeButton:hover{
+    cursor: pointer;
+}
+
+.modal__text{
+    font: var(--text3);
+    color: var(--gray-4);
+    text-align: justify;
+}
+
+.modal__inuptEmail{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--gray-1);
+    color: var(--gray-4);
+    border: solid 0.1rem var(--gray-1);
+    padding: 1.4rem 2rem;
+    font: var(--text1);
+}
+
+.modal__sendButton{
+    width: 100%;
+    height: 6rem;
+    background-color: var(--brand-1);
+    color: var(--gray-7);
+    font: var(--text4);
+    border: solid 0.1rem var(--brand-1);
+}
+
+.modal__sendButton:hover{
+    cursor: pointer;
+}

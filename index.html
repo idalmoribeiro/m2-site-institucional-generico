@@ -13,7 +13,10 @@
     <link rel="stylesheet" href="./styles/faq.css">
     <link rel="stylesheet" href="./styles/comentario.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/modal.css">
 
+    <!--SCRIPTS-->
+    <script src="./scripts/modal_script.js" defer></script>
 
   </head>
   <body>
@@ -212,6 +215,22 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+    <dialog class="modalBox">
+      <div class="modal__container">
+        <div class="primeira__linhaModal">
+          <h2 class="modal__title">Cadastro</h2>
+          <button class="modal__closeButton">X</button>
+        </div>
+
+        <p class="modal__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </p>
+
+        <input class="modal__inuptEmail" type="email" placeholder="Digitar E-mail">
+
+        <button class="modal__sendButton" type="button">Entrar na lista para próxima turma</button>
+      </div>
+    </dialog>
   </body>
 </html>
