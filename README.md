@@ -6,7 +6,7 @@
 
 
 
-🔗 \*\*\[**Acessar demonstração ao vivo**](https://idalmoribeiro.github.io/m2-site-institucional-generico/)\*\*
+🔗 \*\*\[**Acessar demonstração ao vivo**] https://idalmoribeiro.github.io/m2-site-institucional-generico/
 
 
 
