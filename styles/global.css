@@ -14,14 +14,30 @@
 
     /*textos*/
     /* font weight, font size/line-weight, font-family*/
-    --title1: 600 52px/140% "Inter", sans-serif;
-    --title2: 600 40px/160% "Inter", sans-serif;
-    --title3: 600 32px/160% "Inter", sans-serif;
-    --text1: 400 20px/150% "Inter", sans-serif;
-    --text2: 400 18px/150% "Inter", sans-serif;
-    --text3: 400 16px/150% "Inter", sans-serif;
-    --text4: 600 16px/150% "Inter", sans-serif ;
-    --closeButtonText: 600 20px/160% "Nunito", sans-serif;
+     /* --title1: de 36px (425px) a 52px (1024px) */
+    --title1: 600 clamp(3.6rem, 2.465rem + 2.671vw, 5.2rem)/140% "Inter", sans-serif;
+    
+    /* --title2: de 28px (425px) a 40px (1024px) */
+    --title2: 600 clamp(2.8rem, 1.949rem + 2.003vw, 4.0rem)/160% "Inter", sans-serif;
+    
+    /* --title3: de 24px (425px) a 32px (1024px) */
+    --title3: 600 clamp(2.4rem, 1.832rem + 1.336vw, 3.2rem)/160% "Inter", sans-serif;
+    
+    /* --text1: de 16px (425px) a 20px (1024px) */
+    --text1: 400 clamp(1.6rem, 1.316rem + 0.668vw, 2.0rem)/150% "Inter", sans-serif;
+    
+    /* --text2: de 16px (425px) a 18px (1024px) */
+    --text2: 400 clamp(1.6rem, 1.458rem + 0.334vw, 1.8rem)/150% "Inter", sans-serif;
+    
+    /* --text3: de 14px (425px) a 16px (1024px) */
+    --text3: 400 clamp(1.4rem, 1.258rem + 0.334vw, 1.6rem)/150% "Inter", sans-serif;
+    
+    /* --text4: de 14px (425px) a 16px (1024px) */
+    --text4: 600 clamp(1.4rem, 1.258rem + 0.334vw, 1.6rem)/150% "Inter", sans-serif;
+    
+    /* --closeButtonText: de 16px (425px) a 20px (1024px) */
+    --closeButtonText: 600 clamp(1.6rem, 1.316rem + 0.668vw, 2.0rem)/160% "Nunito", sans-serif;
+
 
 }
 
